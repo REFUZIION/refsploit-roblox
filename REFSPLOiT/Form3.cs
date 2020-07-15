@@ -11,14 +11,14 @@ using WeAreDevs_API;
 
 namespace REFSPLOiT
 {
-    public partial class ExploitForm : Form
+    public partial class Form2 : Form
     {
         private bool _dragging = false;
         private Point _start_point = new Point(0, 0);
 
         readonly ExploitAPI api = new ExploitAPI();
 
-        public ExploitForm()
+        public Form2()
         {
             InitializeComponent();
         }
@@ -108,9 +108,9 @@ namespace REFSPLOiT
 
         }
 
-        private void userbtn_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-            // Add function that shows user details in a seperate window.
+
         }
     }
 }
